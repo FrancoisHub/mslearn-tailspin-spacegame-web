@@ -30,7 +30,8 @@ namespace Tests
         [TestCase("NGC 1300")]
         [TestCase("Messier 82")]
         /// <summary>
-        /// In an NUnit test method, TestCase, provides inline data to use to test that method. Here, NUnit calls the FetchOnlyRequestedGameRegion unit test method like this:
+        /// In an NUnit test method, TestCase, provides inline data to use to test that method. Here,
+        /// NUnit calls the FetchOnlyRequestedGameRegion unit test method like this:
         /// <example>
         /// <code>
         /// FetchOnlyRequestedGameRegion("Milky Way");
