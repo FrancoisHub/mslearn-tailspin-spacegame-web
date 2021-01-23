@@ -29,6 +29,19 @@ namespace Tests
         [TestCase("Pinwheel")]
         [TestCase("NGC 1300")]
         [TestCase("Messier 82")]
+        /// <summary>
+        /// In an NUnit test method, TestCase, provides inline data to use to test that method. Here, NUnit calls the FetchOnlyRequestedGameRegion unit test method like this:
+        /// <example>
+        /// <code>
+        /// FetchOnlyRequestedGameRegion("Milky Way");
+        /// FetchOnlyRequestedGameRegion("Andromeda");
+        /// FetchOnlyRequestedGameRegion("Pinwheel");
+        /// FetchOnlyRequestedGameRegion("NGC 1300");
+        /// FetchOnlyRequestedGameRegion("Messier 82");
+        /// </code>
+        /// </example>
+        /// </summary>
+        /// <param name="gameRegion"></param>
         public void FetchOnlyRequestedGameRegion(string gameRegion)
         {
             const int PAGE = 0; // take the first page of results
